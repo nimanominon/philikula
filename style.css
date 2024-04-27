@@ -129,7 +129,10 @@ main{
 	font-weight: bold;
 	font-size: 2vw; 
 }
-
+.content .desc .details{
+	font-family: "Montserrat", sans-serif;
+	font-style: italic;
+}
 
 .language{
 	font-family: "Calibri", sans-serif;
@@ -146,7 +149,9 @@ main{
 	text-align: center;
 }
 .content .desc .plot{
-	font-size: 1.4vw; 
+	font-size: 1.45em; 
+	font-family: monospace;
+
 }
 
 
