@@ -85,17 +85,28 @@ main{
 
 
 .content img{
-	width: 50%;
-	vertical-align: middle;	
 	position: relative;
 	border-radius: 10px
+	
+}
+
+.content #bh{
+	width: 50%;
+}
+
+.content #rewind{
+	width:55%;
+}
+
+.content #bis{
+	width:45%;
 }
 
 .content .desc{
 	position: absolute;
 	right:0;
 	margin:10px;
-	width: calc(50% - 10px);
+	width: calc(50% - 40px);
 	top:50%;
 	transform: translateY(-50%);
 	text-align: right;
@@ -125,6 +136,9 @@ main{
 .content .desc .plot{
 	font-size: 1.4vw; 
 }
+
+
+
 
 
 .rows{
@@ -157,4 +171,3 @@ footer{
 	width: 100%;
 	bottom:0px;
 }
-
